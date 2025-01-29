@@ -11,14 +11,23 @@ Requirements:
 Hardware Components:
 
 1 -> STM32 Microcontroller (e.g., STM32F407VG)
+
 2 -> ESP8266 WiFi Module (connected via UART to STM32)
+
 3 -> RFID Reader (MFRC522) (connected via UART to STM32)
+
 4 -> RFID Tags (for vehicle identification)
+
 5 -> IR Sensors (for vehicle detection at intersections)
+
 6 -> Ultrasonic Sensors (for measuring vehicle density)
+
 7 -> LED Traffic Lights (Red, Yellow, Green, connected to GPIO pins)
+
 8 -> Buzzer (for emergency alerts)
+
 9 -> Power Supply (3.3V & 5V regulators, LiPo battery or adapter)
+
 10 -> Jumper Wires & PCB Board (for circuit integration)
 
 Software Tools:
